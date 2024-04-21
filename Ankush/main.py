@@ -142,8 +142,8 @@ async def account_login(bot: Client, m: Message):
 
             elif '/master.mpd' in url:
              id =  url.split("/")[-2]
-             url =  "https://d26g5bnklkwsh4.cloudfront.net/" + id + "/master.m3u8"
-             url = "https://d1d34p8vz63oiq.cloudfront.net/" + id + "/master.m3u8"
+             url =  "https://d26g5bnklkwsh4.cloudfront.net/" + id + "/master.mpd"
+             url = "https://d1d34p8vz63oiq.cloudfront.net/" + id + "/master.mpd"
 
              
             #  url =  "https://psitoffers.store/testkey.php?vid=" + id + "&quality=" + raw_text2
